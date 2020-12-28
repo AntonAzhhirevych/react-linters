@@ -1,0 +1,27 @@
+-npm
+
+npm i --save-dev eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-prettier eslint-plugin-react husky lint-staged prettier
+
+-dop
+
+prop-types
+
+-package.json
+
+"scripts":{
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix",
+    "lint:format": "prettier src/**/*.{js,css,scss,json} --write",
+}
+
+
+-vscode
+
+ESlint / Prittier (install plagins in VS code)
+Ctrl+Shift+P => settings
+{
+"files.autoSave":"onFocusChange",
+"editor.formatOnSave":true,
+"eslint.autoFixOnSave":true,
+"eslint.alwaysShowStatus":true
+}
