@@ -1,6 +1,10 @@
--npm
+-i
 
-npm i --save-dev eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-prettier eslint-plugin-react husky lint-staged prettier
+npm i --save-dev
+yarn add --dev
+
+eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-prettier eslint-plugin-react husky lint-staged prettier
+
 
 -dop
 
